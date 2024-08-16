@@ -11,29 +11,63 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+
+# Timezone Dropdown Widget
+
+This package provides a customizable timezone dropdown widget for Flutter applications. It allows users to easily select timezones from a comprehensive list, enhancing the user experience for applications that require timezone selection functionality.
+
+The Timezone Dropdown Widget is designed to be modular, efficient, and user-friendly, making it simple to integrate into various Flutter projects that need timezone selection capabilities.
+
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Comprehensive list of timezones: Includes a wide range of timezones from around the world.
+- Material Design: Utilizes Flutter's Material Design components for a polished look and feel.
+- Customizable appearance: Easily adapt the widget's style to match your app's theme.
+- Efficient data modeling: Proper modeling of timezone data for optimal performance.
+- Search functionality: Allows users to quickly find their desired timezone.
+- Localization support: Display timezone names in different languages (when available).
+- Dropdown and modal sheet options: Choose between a dropdown menu or a full-screen modal sheet for selection.
+- UTC offset display: Shows the UTC offset alongside each timezone for clarity.
+- Current time display: Optionally show the current time in each timezone.
+- Favorite timezones: Allow users to mark frequently used timezones as favorites.
+- Grouping options: Group timezones by continent or UTC offset for easier navigation.
+- Daylight Saving Time (DST) indicator: Clearly mark timezones that observe DST.
+- Programmatic selection: Easily set or retrieve the selected timezone in your code.
+- Callback support: Receive notifications when a user selects a new timezone.
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To get started with the Timezone Dropdown Widget, follow these steps:
 
-## Usage
+1. Add the package to your `pubspec.yaml` file:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+   ```yaml
+   dependencies:
+     timezone_dropdown:
+       git:
+         url: https://github.com/masnun-siam/timezone_dropdown.git
+         ref: main  # Specify a branch or a commit hash
+   ```
 
-```dart
-const like = 'sample';
-```
+   You can also add the package from terminal using `pub` command:
 
-## Additional information
+   ```bash
+   flutter pub add timezone_dropdown --git-url=https://github.com/masnun-siam/timezone_dropdown.git --git-ref=main
+   ```
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+2. Run `flutter pub get` to fetch the package.
+
+3. Import the package in your Dart code:
+
+   ```dart
+   import 'package:timezone_dropdown/timezone_dropdown.dart';
+   ```
+
+Now you're ready to use the Timezone Dropdown Widget in your Flutter application!
+
+
+## Special Mention
+
+- [Sohag Hasan](https://github.com/sohag-pro) for the original idea
