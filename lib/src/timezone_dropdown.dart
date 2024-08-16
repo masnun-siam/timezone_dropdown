@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_timezone_dropdown/gen/assets.gen.dart';
 
 import '../model/timezone.dart';
 
@@ -87,7 +88,7 @@ class _TimezoneDropdownState extends State<TimezoneDropdown> {
   }
 
   Future<void> loadTimezones() async {
-    final json = await rootBundle.loadString('assets/json/timezone.json');
+    final json = await rootBundle.loadString(Assets.json.timezone);
     final List<dynamic> data = jsonDecode(json);
     timezones = data.map((e) => TimeZone.fromJson(e)).toList();
     setState(() {});

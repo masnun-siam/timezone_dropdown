@@ -1,6 +1,6 @@
 name: flutter_timezone_dropdown
 description: "A new flutter widget for timezone dropdown"
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/masnun-siam/timezone_dropdown
 
 environment:
