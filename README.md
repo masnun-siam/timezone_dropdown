@@ -45,16 +45,13 @@ To get started with the Timezone Dropdown Widget, follow these steps:
 
    ```yaml
    dependencies:
-     timezone_dropdown:
-       git:
-         url: https://github.com/masnun-siam/timezone_dropdown.git
-         ref: main  # Specify a branch or a commit hash
+     timezone_dropdown: ^0.0.1
    ```
 
    You can also add the package from terminal using `pub` command:
 
    ```bash
-   flutter pub add timezone_dropdown --git-url=https://github.com/masnun-siam/timezone_dropdown.git --git-ref=main
+   flutter pub add timezone_dropdown
    ```
 
 2. Run `flutter pub get` to fetch the package.
