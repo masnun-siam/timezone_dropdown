@@ -45,13 +45,13 @@ To get started with the Timezone Dropdown Widget, follow these steps:
 
    ```yaml
    dependencies:
-     timezone_dropdown: ^0.0.1
+     flutter_timezone_dropdown: ^0.0.1
    ```
 
    You can also add the package from terminal using `pub` command:
 
    ```bash
-   flutter pub add timezone_dropdown
+   flutter pub add flutter_timezone_dropdown
    ```
 
 2. Run `flutter pub get` to fetch the package.
@@ -59,7 +59,7 @@ To get started with the Timezone Dropdown Widget, follow these steps:
 3. Import the package in your Dart code:
 
    ```dart
-   import 'package:timezone_dropdown/timezone_dropdown.dart';
+   import 'package:flutter_timezone_dropdown/flutter_timezone_dropdown.dart';
    ```
 
 Now you're ready to use the Timezone Dropdown Widget in your Flutter application!

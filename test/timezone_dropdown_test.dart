@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:timezone_dropdown/timezone_dropdown.dart';
+import 'package:flutter_timezone_dropdown/flutter_timezone_dropdown.dart';
 
 void main() {
   test('adds one to input values', () {
